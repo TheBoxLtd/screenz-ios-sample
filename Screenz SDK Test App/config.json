@@ -1,0 +1,28 @@
+{
+    "pids": [#ASSIGNED_PID],
+    "dev_env" : false,
+    "social": {
+        "facebook": {
+            "appID": "#FB_APP_ID",
+            "secret": "#FB_APP_SECRET",
+            "appName": "#FB_APP_NAME"
+        },
+        "twitter": {
+            "key": "#TWITTER_API_KEY",
+            "secret": "#TWITTER_API_SECRET"
+        },
+        "google": {
+            "clientID": "#OAuth_iOS_client_ID"
+        }
+    },
+    "os": {
+        "ios": {
+            "app_status_bar_hidden":false,
+            "notifications_enabled":true,
+            "web_data_mode":"production"
+        }
+    },
+    "glossary": {
+        "noConnectionError": "Please check your internet connection"
+    }
+}

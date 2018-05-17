@@ -1,0 +1,16 @@
+PODS:
+  - ScreenzSDK (2.5.0)
+
+DEPENDENCIES:
+  - ScreenzSDK
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ScreenzSDK
+
+SPEC CHECKSUMS:
+  ScreenzSDK: bef78c57476e117b1005b2db0f5c765d4c4161ab
+
+PODFILE CHECKSUM: d08161508ce261921a015da3c1e5636ef9929193
+
+COCOAPODS: 1.5.0

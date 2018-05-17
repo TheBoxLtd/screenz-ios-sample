@@ -1,0 +1,1 @@
+../../../../ScreenzSDK/ScreenzSDK.framework/Headers/ScreenzSDKConfigModel.h

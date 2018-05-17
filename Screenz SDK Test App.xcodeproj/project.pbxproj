@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3525B537BCBCA6631FB2E9FF /* libPods-Screenz SDK Test App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB0FAE47E63125DE36C0612 /* libPods-Screenz SDK Test App.a */; };
+		CBDD57171C775B3500A6DBDE /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = CBDD57161C775B3500A6DBDE /* config.json */; };
+		CBFAF82A1C77564500B39C1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFAF8291C77564500B39C1D /* main.m */; };
+		CBFAF82D1C77564500B39C1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFAF82C1C77564500B39C1D /* AppDelegate.m */; };
+		CBFAF8301C77564500B39C1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFAF82F1C77564500B39C1D /* ViewController.m */; };
+		CBFAF8331C77564500B39C1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFAF8311C77564500B39C1D /* Main.storyboard */; };
+		CBFAF8351C77564500B39C1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFAF8341C77564500B39C1D /* Assets.xcassets */; };
+		CBFAF8381C77564500B39C1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFAF8361C77564500B39C1D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CBDD57121C7759D200A6DBDE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3393023650414F358E612E1C /* Pods-Screenz SDK Test App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Screenz SDK Test App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Screenz SDK Test App/Pods-Screenz SDK Test App.release.xcconfig"; sourceTree = "<group>"; };
+		4EB0FAE47E63125DE36C0612 /* libPods-Screenz SDK Test App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Screenz SDK Test App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		998370F55748CF3ACCFD733B /* Pods-Screenz SDK Test App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Screenz SDK Test App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Screenz SDK Test App/Pods-Screenz SDK Test App.debug.xcconfig"; sourceTree = "<group>"; };
+		CBDD57161C775B3500A6DBDE /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		CBFAF8251C77564500B39C1D /* Screenz SDK Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Screenz SDK Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFAF8291C77564500B39C1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBFAF82B1C77564500B39C1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBFAF82C1C77564500B39C1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBFAF82E1C77564500B39C1D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBFAF82F1C77564500B39C1D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBFAF8321C77564500B39C1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBFAF8341C77564500B39C1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBFAF8371C77564500B39C1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBFAF8391C77564500B39C1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBFAF8221C77564500B39C1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3525B537BCBCA6631FB2E9FF /* libPods-Screenz SDK Test App.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CC7CB4FE1ED1128ED07B70C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				998370F55748CF3ACCFD733B /* Pods-Screenz SDK Test App.debug.xcconfig */,
+				3393023650414F358E612E1C /* Pods-Screenz SDK Test App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB32C13B20ADB6F300418744 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EB0FAE47E63125DE36C0612 /* libPods-Screenz SDK Test App.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBFAF81C1C77564500B39C1D = {
+			isa = PBXGroup;
+			children = (
+				CBFAF8271C77564500B39C1D /* Screenz SDK Test App */,
+				CBFAF8261C77564500B39C1D /* Products */,
+				CB32C13B20ADB6F300418744 /* Frameworks */,
+				9CC7CB4FE1ED1128ED07B70C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CBFAF8261C77564500B39C1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBFAF8251C77564500B39C1D /* Screenz SDK Test App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBFAF8271C77564500B39C1D /* Screenz SDK Test App */ = {
+			isa = PBXGroup;
+			children = (
+				CBFAF82B1C77564500B39C1D /* AppDelegate.h */,
+				CBFAF82C1C77564500B39C1D /* AppDelegate.m */,
+				CBFAF82E1C77564500B39C1D /* ViewController.h */,
+				CBFAF82F1C77564500B39C1D /* ViewController.m */,
+				CBFAF8311C77564500B39C1D /* Main.storyboard */,
+				CBFAF8341C77564500B39C1D /* Assets.xcassets */,
+				CBFAF8361C77564500B39C1D /* LaunchScreen.storyboard */,
+				CBFAF8391C77564500B39C1D /* Info.plist */,
+				CBDD57161C775B3500A6DBDE /* config.json */,
+				CBFAF8281C77564500B39C1D /* Supporting Files */,
+			);
+			path = "Screenz SDK Test App";
+			sourceTree = "<group>";
+		};
+		CBFAF8281C77564500B39C1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFAF8291C77564500B39C1D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBFAF8241C77564500B39C1D /* Screenz SDK Test App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFAF83C1C77564500B39C1D /* Build configuration list for PBXNativeTarget "Screenz SDK Test App" */;
+			buildPhases = (
+				9161541E3C6C1C0211980C50 /* [CP] Check Pods Manifest.lock */,
+				CBFAF8211C77564500B39C1D /* Sources */,
+				CBFAF8221C77564500B39C1D /* Frameworks */,
+				CBFAF8231C77564500B39C1D /* Resources */,
+				CBDD57121C7759D200A6DBDE /* Embed Frameworks */,
+				9C41B46165A2EC4D52C6F71F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Screenz SDK Test App";
+			productName = "Conecta SDK Test App";
+			productReference = CBFAF8251C77564500B39C1D /* Screenz SDK Test App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBFAF81D1C77564500B39C1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Screenz;
+				TargetAttributes = {
+					CBFAF8241C77564500B39C1D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CBFAF8201C77564500B39C1D /* Build configuration list for PBXProject "Screenz SDK Test App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBFAF81C1C77564500B39C1D;
+			productRefGroup = CBFAF8261C77564500B39C1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBFAF8241C77564500B39C1D /* Screenz SDK Test App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBFAF8231C77564500B39C1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDD57171C775B3500A6DBDE /* config.json in Resources */,
+				CBFAF8381C77564500B39C1D /* LaunchScreen.storyboard in Resources */,
+				CBFAF8351C77564500B39C1D /* Assets.xcassets in Resources */,
+				CBFAF8331C77564500B39C1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9161541E3C6C1C0211980C50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Screenz SDK Test App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C41B46165A2EC4D52C6F71F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Screenz SDK Test App/Pods-Screenz SDK Test App-frameworks.sh",
+				"${PODS_ROOT}/ScreenzSDK/ScreenzSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScreenzSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Screenz SDK Test App/Pods-Screenz SDK Test App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBFAF8211C77564500B39C1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFAF8301C77564500B39C1D /* ViewController.m in Sources */,
+				CBFAF82D1C77564500B39C1D /* AppDelegate.m in Sources */,
+				CBFAF82A1C77564500B39C1D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBFAF8311C77564500B39C1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBFAF8321C77564500B39C1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBFAF8361C77564500B39C1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBFAF8371C77564500B39C1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBFAF83A1C77564500B39C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBFAF83B1C77564500B39C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBFAF83D1C77564500B39C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 998370F55748CF3ACCFD733B /* Pods-Screenz SDK Test App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Screenz SDK Test App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.screenz.ios-demo";
+				PRODUCT_NAME = "Screenz SDK Test App";
+			};
+			name = Debug;
+		};
+		CBFAF83E1C77564500B39C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3393023650414F358E612E1C /* Pods-Screenz SDK Test App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Screenz SDK Test App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.screenz.ios-demo";
+				PRODUCT_NAME = "Screenz SDK Test App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBFAF8201C77564500B39C1D /* Build configuration list for PBXProject "Screenz SDK Test App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFAF83A1C77564500B39C1D /* Debug */,
+				CBFAF83B1C77564500B39C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBFAF83C1C77564500B39C1D /* Build configuration list for PBXNativeTarget "Screenz SDK Test App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFAF83D1C77564500B39C1D /* Debug */,
+				CBFAF83E1C77564500B39C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBFAF81D1C77564500B39C1D /* Project object */;
+}
