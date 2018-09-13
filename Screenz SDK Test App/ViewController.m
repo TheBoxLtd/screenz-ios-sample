@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <ScreenzSDK/ScreenzSDK.h>
 
 @interface ViewController ()
 
@@ -16,7 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [[ScreenzSDKManager sharedInstance] loadInView:self.view viewController:self];
 }
 
 - (void)didReceiveMemoryWarning {

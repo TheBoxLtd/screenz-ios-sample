@@ -1,1 +1,0 @@
-../../../../ScreenzSDK/ScreenzSDK.framework/Headers/JSONModelArray.h

@@ -28,8 +28,10 @@
     /////
     
     //Set the view controller
-    self.viewController = [[ScreenzSDKLoadingViewController alloc] initVC];
-    self.window.rootViewController = self.viewController;
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *initViewController = [storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = initViewController;
     [self.window makeKeyAndVisible];
     
     if (launchOptions != nil) {
@@ -88,8 +90,8 @@
     [[ScreenzSDKManager sharedInstance] failtRegisterForRemoteNotifications];
 }
 
-- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
-    return [[ScreenzSDKManager sharedInstance] processApplicaitonOpenURL:url options:options configurationFile:JSON_DATA];
+-(BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+    return [[ScreenzSDKManager sharedInstance] processApplicaitonOpenURL:url options:options configurationFile:JSON_DATA  viewController:self.window.rootViewController.presentedViewController];
 }
 
 @end

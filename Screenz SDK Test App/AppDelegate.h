@@ -7,14 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@class ScreenzSDKLoadingViewController;
+#import "ViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ScreenzSDKLoadingViewController *viewController;
+@property (strong, nonatomic) ViewController *viewController;
 
 @end
 
