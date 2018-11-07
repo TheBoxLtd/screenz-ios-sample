@@ -1,6 +1,7 @@
 {
     "pids": [#ASSIGNED_PID],
     "dev_env" : false,
+    "video_upload_key" : #ASSIGNED_KEY,
     "social": {
         "facebook": {
             "appID": "#FB_APP_ID",
