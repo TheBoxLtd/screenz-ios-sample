@@ -144,5 +144,11 @@
 
 -(void)setDelegate:(id<ScreenzSDKManagerDelegate>)delegate;
 -(id<ScreenzSDKManagerDelegate>)getDelegate;
-@end
 
+-(BOOL)processNavigationBarData:(NSString*)data;
+
+-(void)clearView;
+
+-(NSString*)getLaunchPageID;
+
+@end

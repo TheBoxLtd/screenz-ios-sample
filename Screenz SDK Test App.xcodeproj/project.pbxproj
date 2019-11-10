@@ -132,6 +132,7 @@
 				CBFAF8231C77564500B39C1D /* Resources */,
 				CBDD57121C7759D200A6DBDE /* Embed Frameworks */,
 				9C41B46165A2EC4D52C6F71F /* [CP] Embed Pods Frameworks */,
+				C7CAB80A23779C0D00FE5E74 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -153,6 +154,7 @@
 				TargetAttributes = {
 					CBFAF8241C77564500B39C1D = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4D6HNJ2Z98;
 					};
 				};
 			};
@@ -161,6 +163,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -213,7 +216,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Screenz SDK Test App/Pods-Screenz SDK Test App-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Screenz SDK Test App/Pods-Screenz SDK Test App-frameworks.sh",
 				"${PODS_ROOT}/ScreenzSDK/ScreenzSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -222,8 +225,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Screenz SDK Test App/Pods-Screenz SDK Test App-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Screenz SDK Test App/Pods-Screenz SDK Test App-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		C7CAB80A23779C0D00FE5E74 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "pushd \"${TARGET_BUILD_DIR}\"/\"${PRODUCT_NAME}\".app/Frameworks/ScreenzSDK.framework/Frameworks\nfor EACH in *.framework; do\n/usr/bin/codesign --force --deep --sign \"${EXPANDED_CODE_SIGN_IDENTITY}\" --entitlements \"${TARGET_TEMP_DIR}/${PRODUCT_NAME}.app.xcent\" --timestamp=none $EACH\ndone\npopd\necho \"BUILD DIR ${TARGET_BUILD_DIR}\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
