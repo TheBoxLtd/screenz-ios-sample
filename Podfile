@@ -7,6 +7,6 @@ target 'Screenz SDK Test App' do
 
   # Pods for Screenz SDK Test App
 
-	pod "ScreenzSDK"
+	pod 'ScreenzSDK', '~> 4.0.1'
 
 end
